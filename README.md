@@ -42,4 +42,4 @@ ffmpeg -i out/video_silent.mp4 -i audio/soundtrack.wav -map 0:v -map 1:a -c:v co
 | `src/scenes/HD.tsx`, `hd_*.tsx` | pixel-to-HD resolve, reveal and end card |
 | `audio/soundtrack.py` | the soundtrack generator |
 
-Remotion is free for individuals; see its [license](https://www.remotion.dev/license) for company use.
+Code is MIT licensed (see [LICENSE](LICENSE)). The Estuary name belongs to Estuary. Remotion itself has its own [license](https://www.remotion.dev/license): free for individuals, paid for larger companies.
