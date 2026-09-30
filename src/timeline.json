@@ -1,0 +1,229 @@
+{
+  "fps": 30,
+  "total": 750,
+  "beatFrames": 12,
+  "beatGridStart": 54,
+  "_note": "Music grid: beat n is at frame 54 + 12n (150 BPM). Every segment cut from 54 on lands on a beat.",
+  "segments": {
+    "boot": {
+      "start": 0,
+      "end": 54,
+      "owner": "pixel3d"
+    },
+    "battle1": {
+      "start": 54,
+      "end": 258,
+      "owner": "battle"
+    },
+    "battle2": {
+      "start": 258,
+      "end": 282,
+      "owner": "battle"
+    },
+    "river": {
+      "start": 282,
+      "end": 354,
+      "owner": "pixel3d"
+    },
+    "battle3": {
+      "start": 354,
+      "end": 378,
+      "owner": "battle"
+    },
+    "check": {
+      "start": 378,
+      "end": 450,
+      "owner": "pixel3d"
+    },
+    "evolve": {
+      "start": 450,
+      "end": 546,
+      "owner": "battle"
+    },
+    "reveal": {
+      "start": 546,
+      "end": 654,
+      "owner": "hd"
+    },
+    "card": {
+      "start": 654,
+      "end": 750,
+      "owner": "hd"
+    }
+  },
+  "texts": [
+    {
+      "id": "wild",
+      "start": 70,
+      "cpf": 2.0,
+      "lines": [
+        "A wild NEW RECORD",
+        "appeared!"
+      ]
+    },
+    {
+      "id": "what",
+      "start": 102,
+      "cpf": 1.0,
+      "lines": [
+        "What will",
+        "ALEX do?"
+      ]
+    },
+    {
+      "id": "useCap",
+      "start": 130,
+      "cpf": 1.0,
+      "lines": [
+        "ALEX used",
+        "CAPTURE!"
+      ]
+    },
+    {
+      "id": "captured",
+      "start": 224,
+      "cpf": 2.0,
+      "lines": [
+        "NEW RECORD was captured",
+        "from hr/new-hires!"
+      ]
+    },
+    {
+      "id": "useStream",
+      "start": 260,
+      "cpf": 2.0,
+      "lines": [
+        "ALEX used",
+        "STREAM!"
+      ]
+    },
+    {
+      "id": "effective",
+      "start": 300,
+      "cpf": 1.5,
+      "lines": [
+        "It's super effective!"
+      ]
+    },
+    {
+      "id": "useDeliver",
+      "start": 356,
+      "cpf": 2.0,
+      "lines": [
+        "ALEX used",
+        "DELIVER!"
+      ]
+    },
+    {
+      "id": "delivered",
+      "start": 402,
+      "cpf": 1.5,
+      "lines": [
+        "Delivered to",
+        "linkedin/feed!"
+      ]
+    },
+    {
+      "id": "usePublish",
+      "start": 452,
+      "cpf": 2.0,
+      "lines": [
+        "ALEX used",
+        "SAVE AND PUBLISH!"
+      ]
+    },
+    {
+      "id": "evolving",
+      "start": 478,
+      "cpf": 2.0,
+      "lines": [
+        "What? ALEX",
+        "is evolving!"
+      ]
+    }
+  ],
+  "textBlipEveryNChars": 3,
+  "events": {
+    "pressStart": 40,
+    "battleTransition": [
+      44,
+      54
+    ],
+    "battleSlideIn": [
+      54,
+      66
+    ],
+    "enemyAppear": 66,
+    "menuOpen": 102,
+    "menuSelectCapture": 126,
+    "throw": [
+      150,
+      162
+    ],
+    "absorb": 162,
+    "orbFall": [
+      168,
+      176
+    ],
+    "wobbles": [
+      186,
+      198,
+      210
+    ],
+    "captureClick": 222,
+    "chapter01": 222,
+    "orbExitToStream": [
+      268,
+      280
+    ],
+    "chapter02": 282,
+    "riverOrbRide": [
+      282,
+      354
+    ],
+    "chapter03": 378,
+    "checkAssemble": [
+      382,
+      422
+    ],
+    "checkOrbPop": 426,
+    "orbReturnsToAlex": [
+      454,
+      470
+    ],
+    "evolveFlashes": [
+      498,
+      510,
+      519,
+      526,
+      531,
+      535,
+      538,
+      541
+    ],
+    "whiteout": 543,
+    "impact": 546,
+    "pixelResolve": [
+      546,
+      564
+    ],
+    "estuarySlam": 546,
+    "ivejoined": 556,
+    "roleLines": [
+      570,
+      576
+    ],
+    "cardIn": [
+      654,
+      668
+    ],
+    "levelUp": 666,
+    "typeBadges": 678,
+    "moves": 690,
+    "url": 702,
+    "endHold": [
+      714,
+      750
+    ]
+  }
+}

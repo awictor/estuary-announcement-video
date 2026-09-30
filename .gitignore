@@ -1,0 +1,5 @@
+node_modules/
+out/
+stills/
+audio/soundtrack.wav
+.DS_Store

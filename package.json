@@ -1,0 +1,22 @@
+{
+  "name": "estuary-announcement-video",
+  "version": "1.0.0",
+  "description": "A 25-second LinkedIn job announcement video, built entirely in code with Remotion, Three.js and a synthesized soundtrack",
+  "scripts": {
+    "studio": "remotion studio src/index.ts",
+    "render": "remotion render src/index.ts Main out/video_silent.mp4 --codec=h264 --crf=15",
+    "soundtrack": "python3 audio/soundtrack.py"
+  },
+  "type": "commonjs",
+  "dependencies": {
+    "@react-three/fiber": "^9.8.1",
+    "@remotion/cli": "^4.0.530",
+    "@remotion/google-fonts": "^4.0.530",
+    "@remotion/three": "^4.0.530",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "remotion": "^4.0.530",
+    "three": "^0.186.1"
+  },
+  "private": true
+}
